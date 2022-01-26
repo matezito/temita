@@ -1,0 +1,14 @@
+/*
+Theme Name: Temita
+Theme URI: http://www.temita.com/
+Description: Temita es un tema
+Author: matecito
+Author URI: http://www.temita.com/
+Version: 1.0
+Text Domain: temita
+*/
+
+body{
+    background-color: black;
+    color: white;
+}

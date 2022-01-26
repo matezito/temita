@@ -1,0 +1,18 @@
+{
+    "name": "wp/temita",
+    "autoload": {
+        "psr-4": {
+            "Temita\\": "src/",
+            "Temita\\Theme\\": "src/theme/",
+            "Temita\\Libs\\": "src/libs/"
+        },
+        "classmap": ["src", "src/libs"]
+    },
+    "authors": [
+        {
+            "name": "Juan Iriart",
+            "email": "jeiriart@gmail.com"
+        }
+    ],
+    "require": {}
+}
