@@ -1,8 +1,8 @@
-## Temita
+# Temita
 
 Tema Base de WordPress, usamos Composer y Webpack (babel) para manejar php y js, js se puede usar con "import" de ser necesario.
 
-### Uno
+## Utilizar
 
 Clonar el repositorio dentro de wp-content/themes 
 Ingresar al theme y ejecutar
@@ -19,13 +19,5 @@ El style general es app.min.css, para hacer cambios usar el archivo **app/css/ap
 
 en el archivo webpack.config.js pueden configurar mas salidas y entradas de archivos, tanto de css como de js.
 
-### Headers
 
-Se puede tener diferentes headers (esto es así por defecto en WP) usando un solo archivo header.php, al definir el get_header() en los template, le podemos pasar 2 parametros, el primero es el nombre del header (le pasamos null también) y luego un array donde pasamos el type, este type tiene uqe existir en la carpeta ```template-parts/header/type-{acaelnombre}.php```, un ejemplo:
-
-```php
-get_header(null,[
-    'type' => 'home'
-]);
-```
-En la misma carpeta ```template-parts/header/``` podemos encontrar el-logo.php, todos los archivos que aparezcan en los template parts con el prefijo ***el-*** son para usar en muchas partes sin repetir código.
+## Pueden leer la documetación que esta en Docs.md en esta misma carpeta.
