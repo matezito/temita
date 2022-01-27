@@ -8,9 +8,7 @@
 </head>
 <body <?php body_class()?>>
 <?php 
-    if(has_custom_logo()) :
-        the_custom_logo();
-    else :
-        echo '<h1>'.get_bloginfo('name').'</h1>';
-    endif;
+
+    $args && $args['type'] ? get_template_part('template-parts/header/type', $args['type']) : get_template_part('template-parts/header/type', 'simple');
+
 ?>
