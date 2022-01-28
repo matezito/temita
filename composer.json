@@ -1,5 +1,5 @@
 {
-    "name": "wp/temita",
+    "name": "matezito/temita",
     "description": "WordPress base theme",
     "autoload": {
         "psr-4": {
