@@ -1,5 +1,8 @@
 # Documentación
 
+**NOTA:** el theme tiene soporte para sass pero se puede usar tailwind o cualquier otro framework de ser necesario. 
+
+**NOTA 2:** en caso de usar campos personalizados para las entradas recomendamos usar add_post_meta o add_user_meta para usuarios si son pocos, en caso de tener muchos, utilizar Carbon Fields, que se puede instalar con composer. Docs: [https://carbonfields.net/](https://carbonfields.net/)
 
 ## Headers
 

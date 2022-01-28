@@ -1,9 +1,11 @@
 {
     "name": "wp/temita",
+    "description": "WordPress base theme",
     "autoload": {
         "psr-4": {
             "Temita\\": "src/",
             "Temita\\Theme\\": "src/theme/",
+            "Temita\\Admin\\": "src/admin/",
             "Temita\\Libs\\": "src/libs/"
         },
         "classmap": ["src", "src/libs"]
@@ -14,5 +16,7 @@
             "email": "jeiriart@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=7.4"
+    }
 }

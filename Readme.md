@@ -17,7 +17,7 @@ El script general del sitio es app.min.js, se genera con el comando ```npm run b
 
 El style general es app.min.css, para hacer cambios usar el archivo **app/css/app.scss** al correr ```npm run build``` o tener corriendo ```npm run watch``` se compila a css automaticamente.
 
-en el archivo webpack.config.js pueden configurar mas salidas y entradas de archivos, tanto de css como de js.
+En el archivo webpack.config.js pueden configurar mas salidas y entradas de archivos, tanto de css como de js.
 
 
 ## Pueden leer la documetación que esta en Docs.md en esta misma carpeta.
