@@ -1,6 +1,8 @@
 {
     "name": "matezito/temita",
     "description": "WordPress base theme",
+    "license": "GPL-2.0-or-later",
+    "homepage": "https://matecito.ar",
     "autoload": {
         "psr-4": {
             "Temita\\": "src/",
